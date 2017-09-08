@@ -1,0 +1,65 @@
+body{
+        overflow: hidden;
+ }
+ .holder {
+    display: none; 
+}
+
+.customBtns{
+    position: absolute;
+    width: 860px;
+    height: 50px;
+    margin: 250px 0 0 0;
+}
+.pgs{
+    margin: 0 auto;
+    width: 940px;
+    height: 450px;
+    position: relative; 
+}
+.menuP1{
+    width: 230px;
+    height: 290px;
+    position: absolute;
+    margin: 215px 0 0 39px;
+}
+.btnP1{
+    width: 208px;
+    height: 72px;
+    margin: 21px 0 -6px 20px;
+    cursor: pointer;
+}
+.contP1{
+    width: 555px;
+    height: 262px;
+    overflow: hidden;
+    position: absolute;
+    margin: 228px 0 0 283px;
+}
+.pdf01{
+    margin: 488px 0 0 288px;
+    position: absolute;
+}
+.acordeon{
+    position: absolute;
+    margin: 100px 0 0 10px;
+}
+.cajaResalt{
+    cursor: pointer;
+    margin: 0 0 10px 0;
+}
+.cls{
+    position: absolute;
+    right: -6px;
+    top: -11px;
+    cursor: pointer;
+}
+.posExtras1{
+    margin: -199px 0px 0px 220px;
+}
+.posText{
+    position: absolute;
+    margin-top: -402px;
+    margin-left: 61px;
+    font-size: 14px;
+}

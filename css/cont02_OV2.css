@@ -1,0 +1,156 @@
+body{
+        overflow: hidden;
+    }
+
+.holder {
+    display: none;
+}
+
+.customBtns{
+    position: absolute;
+    width: 860px;
+    height: 50px;
+    margin: 250px 0 0 0;
+}
+
+.pgs{
+    margin: 0 auto;
+    width: 940px;
+    height: 450px;
+    position: relative;
+}
+
+
+.adv{
+    background: url(../img/adv.png) no-repeat;
+    width: 834px;
+    height: 364px;
+}
+
+.botonesP1{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin: 100px 0 0 60px;
+}
+
+.btnExtras{
+    margin-top: -60px;
+    margin-left: 700px;
+    position: absolute;
+}
+
+.cont{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.cls{
+    position: absolute;
+    right: -6px;
+    top: -11px;
+    cursor: pointer;
+}
+
+.black{
+    width: 100%;
+    height: 100%;
+    background: rgba(37, 48, 16, 0.95);
+    position: absolute;
+    z-index: 3;
+}
+
+.posExtras1{
+    /*border: 1px solid;*/
+    margin: -357px 0px 299px 419px;
+    width: 370px;
+    height: 72px;
+    background: rgba(0, 0, 0, .5);
+}
+.posExtras2{
+    margin-top: -66px;
+    margin-left: 691px;
+}
+
+.posExtras3{
+    margin-top: -76px;
+    margin-left: 120px;
+}
+
+.posExtras4{
+    /*border: 1px solid;*/
+    margin: -322px 0px 285px 49px;
+    width: 370px;
+    height: 72px;
+    background-color: red;
+}
+.posExtras5{
+    border: 1px solid;
+    border-color: #a09797;
+    margin: -299px 0px 141px 49px;
+    width: 696px;
+    height: 168px;
+    background-color: #ffffff;
+    padding: 21px;
+}
+.posExtras6{
+    margin-top: -48px;
+    margin-left: 841px;
+}
+.posExtras7{
+    border: 1px solid;
+    border-color: #a09797;
+    margin: -299px 0px 141px 50px;
+    width: 695px;
+    height: 168px;
+    background-color: #ffffff;
+    padding: 21px;
+}
+
+/*---------------------------------------*/
+
+.contP1{
+    overflow: hidden;
+    width: 739px;
+    height: 190px;
+    position: absolute;
+    margin: 170px 0px 0px 65px;
+    border: 1px solid;
+    background-color: white;
+    padding: 15px;
+}
+
+
+.btnP1{
+    width: 208px;
+    height: 72px;
+    /* margin: 37px 0 -6px 20px; */
+    cursor: pointer;
+}
+
+.btnP1:hover{
+  background-color: #707070;
+}
+
+.btn_tab_col{
+    background-color: #707070;
+    border: 1px solid;
+    width: 384px;
+}
+
+.cont_tab_pos{
+    /* margin-left: 25px; */
+    margin-top: 10px;
+}
+
+.pos_tab_cont{
+    margin-top: 263px;
+}
+
+.pos_tab_btn{
+    margin-left: 65px;
+    margin-top: 189px;
+}

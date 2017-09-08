@@ -1,0 +1,117 @@
+
+
+body{
+        overflow: hidden;
+    }
+    @import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+.holder {
+    display: none; 
+}
+
+.customBtns{
+    position: absolute;
+    width: 860px;
+    height: 50px;
+    margin: 250px 0 0 0;
+}
+
+.pgs{
+    margin: 0 auto;
+    width: 940px;
+    height: 450px;
+    position: relative; 
+}
+
+.contP1{
+    overflow: hidden;
+    width: 824px;
+    height: 340px;
+    position: absolute;
+    margin: 170px 0 0 50px;
+}
+
+.adv{
+    background: url(../img/adv.png) no-repeat;
+    width: 834px;
+    height: 364px;
+}
+
+.botonesP1{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin: 100px 0 0 60px;
+}
+
+.btnExtras{
+    margin-top: -60px;
+    margin-left: 700px;
+    position: absolute;
+}
+
+.cont{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.cls{
+    position: absolute;
+    right: -6px;
+    top: -11px;
+    cursor: pointer;
+}
+
+.black{
+    width: 100%;
+    height: 100%;
+    background: rgba(37, 48, 16, 0.95);
+    position: absolute;
+    z-index: 3;
+}
+
+.posExtras1{
+    padding: 16px;
+    margin: -136px 0px 0px 303px;
+    width: 456px;
+    height: 456px;
+    border-radius: 17px 17px 17px 17px;
+    -moz-border-radius: 17px 17px 17px 17px;
+    -webkit-border-radius: 17px 17px 17px 17px;
+    border: 0px solid #000000;
+}
+.posExtras2{
+    margin: -484px 0px 0px 664px;
+    width: 105px;
+    height: 105px;
+}
+.posExtras3{
+    margin: 86px 0px 0px 122px;
+    width: 105px;
+    height: 105px;
+}
+.posExtras4{
+    margin: -99px 0px 0px 657px;
+    width: 105px;
+    height: 105px;
+}
+.posExtras5{
+    margin: -301px 0px 0px 123px;
+    width: 105px;
+    height: 105px;
+}
+.text-cont-sg{
+    position: absolute;
+    margin: 9px 40px 20px 40px;
+    font-size: 23px;
+    font-family: 'PT Sans', sans-serif;
+}
+.cont-slider{
+    position: absolute;
+    width: 753px;
+    margin-left: 70px; 
+    margin-top: 150px;
+}
